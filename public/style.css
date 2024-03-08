@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(140, 189, 140);
+}
+
+header h1{
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    text-shadow: white;
+} 
+
+main{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 230, 230);
+    height: 735px;
+}
+
+main ul {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 20px;
+}
+
+main li{
+    display: flex;
+    border-radius: 6px;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+#image img{
+    width: 100%;
+    height: 730px; 
+}
+
+#create-account {
+     margin: 0 auto;
+     padding: 20px 0; 
+}
+
+#create-account h2 {
+    text-align: center;
+}
+
+#create-submit {
+    margin: 0 50px;
+    color: rgb(90, 114, 42);
+    background-color: rgb(140, 189, 140);
+    border: none;
+    box-sizing: 2px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;    
+    text-decoration: none;
+}
+
+#create-submit:hover{
+    color: rgba(255, 255, 255, 0.767);
+}
+
+#create-login {
+    margin: 0 50px;
+    color: rgb(90, 114, 42);
+    background-color: rgb(140, 189, 140);
+    border: none;
+    box-sizing: 2px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#create-login:hover{
+    color: rgba(255, 255, 255, 0.767);
+}
+
+#login-account {
+    margin: 0 auto;
+    padding: 20px 0;
+    display: none;
+}
+
+#login-account h2 {
+    text-align: center;
+}
+
+#login-submit {
+    margin: 0 50px;
+    color: rgb(90, 114, 42);
+    background-color: rgb(140, 189, 140);
+    border: none;
+    box-sizing: 2px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#login-submit:hover {
+    color: rgba(255, 255, 255, 0.767);
+}
+
+#login-login {
+    margin: 0 50px;
+    color: rgb(90, 114, 42);
+    background-color: rgb(140, 189, 140);
+    border: none;
+    box-sizing: 2px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#login-login:hover{
+    color: rgba(255, 255, 255, 0.767);
+}
+
+#body {
+    background-color: rgb(230, 230, 230);
+}
+
+#chatbot {
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;    
+}
